@@ -1,0 +1,50 @@
+iniciar-programa
+        {miriam janet villegas bucio}
+       define-nueva-instruccion gira-derecha como 
+          inicio
+             gira-izquierda;
+             gira-izquierda;
+             gira-izquierda;
+           fin;
+        define-nueva-instruccion dibuja-letra como 
+            inicio
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+                gira-derecha;
+                avanza;
+                gira-derecha;
+                avanza;
+                deja-zumbador;
+                avanza;
+                gira-izquierda;
+                avanza;
+                deja-zumbador;
+                avanza;
+                gira-izquierda;
+                avanza;
+                deja-zumbador;
+                avanza;
+                gira-derecha;
+                avanza;
+                deja-zumbador;
+                gira-derecha;
+                avanza;
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+                avanza;
+                deja-zumbador;
+             fin;
+             inicia-ejecucion
+               dibuja-letra;
+        termina-ejecucion
+finalizar-programa
