@@ -1,0 +1,13 @@
+iniciar-programa
+   define-nueva-instruccion gira(MB) como
+      inicio
+         repetir MB veces
+           inicio
+        gira-izquierda;
+           fin;
+      fin;
+    inicia-ejecucion
+       gira(3000);
+        apagate;
+    termina-ejecucion
+finalizar-programa
